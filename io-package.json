@@ -1,0 +1,72 @@
+{
+	"common": {
+		"name": "fernseher",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Fernseher",
+		"titleLang": {
+			"en": "Fernseher",
+			"de": "Fernseher",
+			"ru": "Фернсехер",
+			"pt": "Fernseher",
+			"nl": "Fernseher",
+			"fr": "Fernseher",
+			"it": "Fernseher",
+			"es": "Fernseher",
+			"pl": "Fernseher",
+			"zh-cn": "芬谢赫"
+		},
+		"desc": {
+			"en": "fernseher",
+			"de": "fernseher",
+			"ru": "Фернсехер",
+			"pt": "fernseher",
+			"nl": "fernseher",
+			"fr": "fernseher",
+			"it": "fernseher",
+			"es": "helecho",
+			"pl": "fernseher",
+			"zh-cn": "蕨类植物"
+		},
+		"authors": ["Smibser <f@f.de>"],
+		"keywords": ["ioBroker", "template", "Smart Home", "home automation"],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "build/main.js",
+		"icon": "fernseher.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Smibser/ioBroker.fernseher/main/admin/fernseher.png",
+		"readme": "https://github.com/Smibser/ioBroker.fernseher/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "multimedia",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
